@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+div.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+div.header-left {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.post-img {
+    display: flex;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+
+.icons-left {
+    word-spacing: 5px;
+}
+
+.post-content {
+    padding: 0 14px 0 14px;
+    margin-bottom: 10px;
+}
